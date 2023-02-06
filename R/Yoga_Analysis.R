@@ -1,23 +1,22 @@
-#' A short title
+#' Yoga and Screen Time
 #'
-#' A longer paragraph that describes the context of the dataset and
-#' discusses important aspects that will be necessary for somebody first seeing
-#' the data to know about. Any text in these initial paragraphs will be
-#' in the description section of the documentation file.
+#'Dataset for analysis of screen time in association with other
+#'activities including yoga, productive and creative activity.
+#'Data is collected daily for two months.
 #'
 #' @format A data frame with 28 observations with 12 columns.
 #' \describe{
-#'    \item{index}{Description of column 1, including units if appropriate}
-#'    \item{Date}{Description of column 2, including units if appropriate}
-#'    \item{Week.Day}{Description of column 2, including units if appropriate}
-#'    \item{Total.Screen.Time}{Description of column 2, including units if appropriate}
-#'    \item{Social.Networking}{Description of column 2, including units if appropriate}
-#'    \item{Reading.and.Reference}{Description of column 2, including units if appropriate}
-#'    \item{Other}{Description of column 2, including units if appropriate}
-#'    \item{Productivity}{Description of column 2, including units if appropriate}
-#'    \item{Health.and.Fitness}{Description of column 2, including units if appropriate}
-#'    \item{Entertainment}{Description of column 2, including units if appropriate}
-#'    \item{Creativity}{Description of column 2, including units if appropriate}
-#'    \item{Yoga}{Description of column 2, including units if appropriate}
+#'    \item{Date}{Month, day, and year of observation.}
+#'    \item{Week.Day}{Day of week.}
+#'    \item{Total.Screen.Time}{Total amount of screen time (minutes).}
+#'    \item{Social.Networking}{Amount of time spent on social media (minutes).}
+#'    \item{Reading.and.Reference}{Amount of time spent doing reading and reference activities (minutes).}
+#'    \item{Other}{Amount of time spent on other activities (minutes).}
+#'    \item{Productivity}{Amount of time spent on productive activities, such as work (minutes).}
+#'    \item{Health.and.Fitness}{Amount of time spent working out (minutes).}
+#'    \item{Entertainment}{Amount of time spent watching movies/playing video games etc (minutes).}
+#'    \item{Creativity}{Amount of time spent creating art/music (minutes).}
+#'    \item{Yoga}{Indicates whether or not yoga was done that day.}
 #' }
+#' @source \url{https://www.kaggle.com/datasets/thedevastator/how-does-daily-yoga-impact-screen-time-habits}
 "Yoga_Analysis"
