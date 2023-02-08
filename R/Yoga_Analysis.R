@@ -4,7 +4,7 @@
 #'activities including yoga, productive and creative activity.
 #'Data is collected daily for two months.
 #'
-#' @format A data frame with 28 observations with 12 columns.
+#' @format A data frame with 28 observations and 12 columns.
 #' \describe{
 #'    \item{Date}{Month, day, and year of observation.}
 #'    \item{Week.Day}{Day of week.}

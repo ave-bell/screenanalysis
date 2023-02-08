@@ -13,6 +13,10 @@ Yoga_Analysis$Week.Day <- factor(Yoga_Analysis$Week.Day,
                                              "Friday",
                                              "Saturday"))
 
+Yoga_Analysis$Yoga <- as.factor(Yoga_Analysis$Yoga)
+
+Yoga_Analysis$Date <- lubridate::mdy(Yoga_Analysis$Date)
+
 Yoga_Analysis <- Yoga_Analysis %>%
   select(-index)
 

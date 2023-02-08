@@ -5,7 +5,7 @@
 \alias{Yoga_Analysis}
 \title{Yoga and Screen Time}
 \format{
-A data frame with 28 observations with 12 columns.
+A data frame with 28 observations and 12 columns.
 \describe{
 \item{Date}{Month, day, and year of observation.}
 \item{Week.Day}{Day of week.}
